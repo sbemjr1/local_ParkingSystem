@@ -15,9 +15,9 @@ export const Wrapper = styled.div`
       url("images/bg.jpg");
   }
   @media screen and (min-width: 601px) {
-    width: 1920px;
-    height: 940px;
-    padding: 0 550px;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 30%;
     display: flex;
     align-items: center;
     background-image: radial-gradient(
@@ -34,7 +34,7 @@ export const MainWrapper = styled.div`
     width: 90vw;
   }
   @media only screen and (min-width: 601px) {
-    width: 1920px;
+    width: 100%;
   }
 `;
 
@@ -95,6 +95,7 @@ export const Title = styled.div`
   }
   @media screen and (min-width: 601px) {
     font-size: 50px;
+    text-align: center;
     font-weight: bold;
     color: white;
     margin-bottom: 10px;
