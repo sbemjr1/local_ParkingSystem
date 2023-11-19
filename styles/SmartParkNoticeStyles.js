@@ -15,9 +15,9 @@ export const Wrapper = styled.div`
       url("images/bg.jpg");
   }
   @media screen and (min-width: 601px) {
-    width: 1920px;
-    height: 940px;
-    padding: 0 550px;
+    width: 100vw;
+    height: 100vh;
+    padding: 0 25%;
     display: flex;
     align-items: center;
     background-image: radial-gradient(
