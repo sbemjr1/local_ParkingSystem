@@ -216,7 +216,7 @@ export const Slot = styled.div`
 
 export const Count = styled.div`
   @media screen and (max-width: 600px) {
-    margin-top: 30px;
+    margin-top: 20px;
     color: white;
     font-size: 15px;
     font-weight: bold;
