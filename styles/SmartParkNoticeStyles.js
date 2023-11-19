@@ -17,7 +17,7 @@ export const Wrapper = styled.div`
   @media screen and (min-width: 601px) {
     width: 100vw;
     height: 100vh;
-    padding: 0 25%;
+    justify-content: center;
     display: flex;
     align-items: center;
     background-image: radial-gradient(
