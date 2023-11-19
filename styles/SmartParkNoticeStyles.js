@@ -51,7 +51,7 @@ export const InnerWrapper = styled.div`
 export const ContentsWrapper = styled.div`
   @media screen and (max-width: 600px) {
     width: 100%;
-    height: 75vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -130,7 +130,6 @@ export const ListWrapper = styled.div`
 export const InputWrapper = styled.div`
   @media screen and (max-width: 600px) {
     width: 100%;
-    height: 50vh;
     display: flex;
     flex-direction: column;
   }

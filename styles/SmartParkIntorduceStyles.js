@@ -79,7 +79,7 @@ export const Title = styled.h1`
   @media screen and (max-width: 600px) {
     color: white;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   @media only screen and (min-width: 601px) {
     color: white;
@@ -115,8 +115,8 @@ export const ImgWrapper = styled.div`
 
 export const ImgBox = styled.img`
   @media screen and (max-width: 600px) {
-    width: 170px;
-    height: 180px;
+    width: 35vw;
+    height: 20vh;
     border-radius: 10px;
     margin-right: 10px;
     margin-bottom: 50px;
