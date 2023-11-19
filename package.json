@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build ",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "CI= npm run build"
   },
   "dependencies": {
     "@apollo/client": "^3.8.7",
